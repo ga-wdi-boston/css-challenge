@@ -1,0 +1,77 @@
+nav {
+  width: 80%;
+  height: 30px;
+  background-color: grey;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+h1, h3 {
+  text-align: center;
+}
+
+h3 {
+  clear: both;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.menu > a {
+  float: left;
+  padding: 7px;
+  background-color: orange;
+}
+
+.options {
+  padding: 7px;
+  background-color: green;
+}
+
+.user {
+  padding: 7px;
+  background-color: red;
+}
+
+.user, .options {
+  float: right;
+}
+
+aside {
+  height: 400px;
+  width: 200px;
+  background-color: yellow;
+  float: left;
+  margin-bottom: 40px;
+}
+
+.row-divs {
+  width: 30%;
+  border: solid 2px black;
+  height: 200px;
+  float: left;
+}
+
+.bottom-div {
+  width: 100%;
+  background-color: purple;
+  height: 200px;
+}
+
+.container {
+  margin: auto;
+  overflow: hidden;
+  width: 550px;
+  background-color: teal;
+  height: 200px;
+}
+
+footer {
+  margin-top: 50px;
+  clear: both;
+  width: 100%;
+  height: 80px;
+  background-color: grey;
+}
