@@ -1,0 +1,32 @@
+body{
+  border: 1px black
+}
+div{
+  border: 1px black;
+}
+.header{
+
+  width: 800px;
+  height: 300px;
+  text-align: center;
+
+}
+
+.nav{
+width: 700px;
+height: 200px;
+position: fixed;
+}
+.a{
+  float: left;
+}
+.content{
+text-align: center;
+}
+.ul{
+color: blue;
+float: left;
+}
+.poem{
+  float: right;
+}
