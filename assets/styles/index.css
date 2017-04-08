@@ -1,0 +1,83 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  width:960px;
+  margin:0 auto;
+}
+
+div {
+  border: 2px solid black;
+  box-sizing: border-box;
+}
+.container {
+  width:100%;
+  text-align: center;
+  overflow:hidden;
+}
+.header {
+  margin:0 60px 50px 70px;
+  overflow: hidden;
+  border-top: none;
+}
+.left-box {
+  border :none;
+  border-right: 2px solid black;
+  float: left;
+  width: 130px;
+  height: 90px;
+}
+.right-box {
+  border:none;
+  border-left: 2px solid black;
+  float:right;
+  width: 110px;
+  height: 90px;
+}
+.banner {
+  margin:0 140px 110px 110px;
+  height: 90px;
+}
+.sidebar {
+  float:left;
+  margin-left:30px;
+  width:170px;
+  height: 460px;
+}
+.grid {
+  float:right;
+  margin-right:60px;
+  width: 660px;
+  height:460px;
+
+}
+.row {
+  width:100%;
+  /*overflow: hidden;*/
+  border:none;
+  /*border-bottom: 2px solid black;*/
+}
+.col {
+  min-height: 240px;
+  width: 33.33%;
+  float:left;
+  border-left:none;
+  border-top:none;
+}
+.col:last-of-type {
+  border-right:none;
+}
+.name {
+  height: 150px;
+  float: none;
+  font-size: 32px;
+  border: none;
+  line-height: 192px;
+}
+.clearfix {
+  border: none;
+  clear: both;
+}
+.footer {
+  border-top:none;
+  height: 70px;
+  line-height:70px;
+}
