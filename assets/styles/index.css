@@ -1,0 +1,36 @@
+nav {
+  float: top;
+}
+
+.top-left {
+  float: left
+}
+
+.top-center {
+  float: none;
+}
+
+.top-right {
+  float: right;
+}
+
+.top-far-right {
+  float: right;
+}
+
+h1 {
+  text-align: center;
+}
+
+ul {
+  position: relative;
+}
+
+p {
+  float: right
+}
+
+footer {
+  margin: auto;
+  text-align: center;
+}
