@@ -21,7 +21,13 @@ div {
   margin-left: 50px;
   margin-bottom: 75px;
   border-right: none;
-  background-color: blue;
+  background: repeating-linear-gradient(
+  140deg,
+  darkblue,
+  darkblue 10px,
+  lightblue 10px,
+  lightblue 20px
+);
 }
 
 .top-left-middle {
@@ -39,7 +45,13 @@ div {
   margin-bottom: 75px;
   float: left;
   border-right: none;
-  background-color: green;
+  background: repeating-linear-gradient(
+  45deg,
+  green,
+  green 10px,
+  lightgreen 10px,
+  lightgreen 20px
+);
 }
 
 .top-right {
@@ -55,7 +67,13 @@ div {
   height: 100px;
   width: 80%;
   margin: 25px 100px 75px 100px;
-  background-color: purple;
+  background: repeating-linear-gradient(
+  45deg,
+  #606dbc,
+  #606dbc 10px,
+  #465298 10px,
+  #465298 20px
+);
 }
 
 .left-column {
@@ -63,7 +81,13 @@ div {
   height: 600px;
   width: 20%;
   margin: 50px 5px 75px 5px;
-  background-color: cyan;
+  background: repeating-radial-gradient(
+  circle,
+  purple,
+  purple 10px,
+  #4b026f 10px,
+  #4b026f 20px
+);
 }
 
 .left-section {
@@ -81,7 +105,11 @@ div {
   width: 24.4%;
   margin: 50px 0px 0px 0px;
   border-right: none;
-  background-color: lightblue;
+  background: red;
+  background: -webkit-radial-gradient(red 5%, yellow 15%, green 60%);
+  background: -o-radial-gradient(red 5%, yellow 15%, green 60%);
+  background: -moz-radial-gradient(red 5%, yellow 15%, green 60%);
+  background: radial-gradient(red 5%, yellow 15%, green 60%);
 }
 
 .right-section {
@@ -100,7 +128,13 @@ div {
   margin-left: 5px;
   margin-bottom: 75px;
   border-top: none;
-  background-color: darkblue;
+  background: repeating-linear-gradient(
+  to right,
+  #f6ba52,
+  #f6ba52 10px,
+  #ffd180 10px,
+  #ffd180 20px
+);
 
 }
 
@@ -121,7 +155,7 @@ div {
   margin-left: -20px;
   position: absolute;
   border-right: none;
-  background-color: orange;
+  background-color: purple;
 }
 
 @media (max-width: 700px) {
