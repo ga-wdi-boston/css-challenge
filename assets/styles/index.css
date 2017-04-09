@@ -1,0 +1,183 @@
+div {
+  display: block;
+  box-sizing: inherit;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+  background-color: white;
+  text-align: center;
+  padding: 25px;
+  font-size: 32px;
+  color: white;
+}
+
+.container-fluid {
+  background-color: tan;
+}
+.top-left {
+  float: left;
+  height: 100px;
+  width: 12%;
+  margin-left: 50px;
+  margin-bottom: 75px;
+  border-right: none;
+  background: repeating-linear-gradient(
+  140deg,
+  darkblue,
+  darkblue 10px,
+  lightblue 10px,
+  lightblue 20px
+);
+}
+
+.top-left-middle {
+  float: left;
+  height: 100px;
+  width: 55%;
+  margin-bottom: 75px;
+  border-right: none;
+  background-color: red;
+}
+
+.top-right-middle {
+  height: 100px;
+  width: 12%;
+  margin-bottom: 75px;
+  float: left;
+  border-right: none;
+  background: repeating-linear-gradient(
+  45deg,
+  green,
+  green 10px,
+  lightgreen 10px,
+  lightgreen 20px
+);
+}
+
+.top-right {
+  height: 100px;
+  width: 12%;
+  margin-bottom: 75px;
+  float: left;
+  background-color: brown;
+}
+
+.title {
+  clear: both;
+  height: 100px;
+  width: 80%;
+  margin: 25px 100px 75px 100px;
+  background: repeating-linear-gradient(
+  45deg,
+  #606dbc,
+  #606dbc 10px,
+  #465298 10px,
+  #465298 20px
+);
+}
+
+.left-column {
+  float: left;
+  height: 600px;
+  width: 20%;
+  margin: 50px 5px 75px 5px;
+  background: repeating-radial-gradient(
+  circle,
+  purple,
+  purple 10px,
+  #4b026f 10px,
+  #4b026f 20px
+);
+}
+
+.left-section {
+  float: left;
+  height: 300px;
+  width: 24.4%;
+  margin: 50px 0px 0px 5px;
+  border-right: none;
+  background:
+     repeating-radial-gradient(
+       circle at 0 0,
+       gold,
+       #ccc 50px
+     );
+}
+
+.middle-section {
+  float: left;
+  height: 300px;
+  width: 24.4%;
+  margin: 50px 0px 0px 0px;
+  border-right: none;
+  background: -webkit-radial-gradient(red 5%, yellow 15%, green 60%);
+  background: -o-radial-gradient(red 5%, yellow 15%, green 60%);
+  background: -moz-radial-gradient(red 5%, yellow 15%, green 60%);
+  background: radial-gradient(red 5%, yellow 15%, green 60%);
+}
+
+.right-section {
+  float: left;
+  height: 300px;
+  width: 24.4%;
+  margin: 50px 5px 0px 0px;
+  background-color: coral;
+}
+
+.bottom-section {
+  float: left;
+  height: 300px;
+  width: 73.2%;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-bottom: 75px;
+  border-top: none;
+  background: repeating-linear-gradient(
+  to right,
+  green,
+  lightgreen 10px,
+  blue 10px,
+  lightblue 20px
+);
+
+}
+
+.text-footer {
+  clear: both;
+  border-style: none;
+  border-width: 0;
+  font-size: 72px;
+  text-align: center;
+  background-color: tan;
+  text-
+
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  margin-left: -20px;
+  position: absolute;
+  border-right: none;
+  background-color: purple;
+}
+
+@media (max-width: 700px) {
+  .top-left {
+    margin-left: 18px;
+  }
+  .title {
+    margin: 25px 40px 25px 50px;
+  }
+  .right-section {
+    margin-right: 0;
+  }
+  .botton-section {
+    margin-right: 0;
+    margin-left:  0;
+    margin-bottom: 0;
+  }
+  .text-footer {
+    font-size: 32px;
+  }
+}
