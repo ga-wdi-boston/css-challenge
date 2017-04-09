@@ -96,7 +96,12 @@ div {
   width: 24.4%;
   margin: 50px 0px 0px 5px;
   border-right: none;
-  background-color: magenta;
+  background:
+     repeating-radial-gradient(
+       circle at 0 0,
+       gold,
+       #ccc 50px
+     );
 }
 
 .middle-section {
@@ -105,7 +110,6 @@ div {
   width: 24.4%;
   margin: 50px 0px 0px 0px;
   border-right: none;
-  background: red;
   background: -webkit-radial-gradient(red 5%, yellow 15%, green 60%);
   background: -o-radial-gradient(red 5%, yellow 15%, green 60%);
   background: -moz-radial-gradient(red 5%, yellow 15%, green 60%);
@@ -130,10 +134,10 @@ div {
   border-top: none;
   background: repeating-linear-gradient(
   to right,
-  #f6ba52,
-  #f6ba52 10px,
-  #ffd180 10px,
-  #ffd180 20px
+  green,
+  lightgreen 10px,
+  blue 10px,
+  lightblue 20px
 );
 
 }
